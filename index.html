@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- TODO: 0. incluir la cabecera  de la pagina  -->    
+<head>
+    <!-- TODO: 1. incluir los meta de la pagina , charset, viewport+ content -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: 2. incluir el titulo de la pagina  -->
+    <title>Document</title>
+</head>
+
+<!-- TODO: 3. incluir el cuerpo de la pagina  -->
+<body>
+    <header>                
+            <!-- TODO: 5. incluir la etiqueta para el titulo con mi nombre y edad (h1)  -->
+            <h1>César Enrique Garcia Pizarro <br>23 Años</h1>        
+            <!-- TODO: 6. incluir la etiqueta para el texto con mi hobby  -->
+            <!-- TODO: 7. incluir la etiqueta para el texto con una descripciopn mia, mis hobbies y mi ocupacion actual  -->
+            <h1>Una descripcion sobre mi:</h1>
+            <section>            
+                <h2>Estudiante de la Carrera de Ingenieria de Sistemas
+                <br>Me considero una persona autodidacta, tengo algo de base de conocimiento con respecto a la creación de páginas web, pero a nivel muy básico
+                <br>Tengo conocimiento más sólido en el leguaje Java, POO, Patrones de Diseño y Manejo de base de datos relacionales como:
+                    <ul>
+                        <li><b3>SQL Server</b3></li>
+                        <li><b3>PostgreSQL</b3></li>
+                    </ul>
+                <br>Ultimamente me llamó la atención el campo de desarrollo web y personalmente me gustaría aprender o especializarme tanto en el sector del backend y el frontend    
+                </h2>
+            </section>
+    </header>
+    <main> 
+        <!-- TODO: 4. incluir la etiqueta principal de la pagina  -->   
+        <section >
+            <h2>Algunos de mis Hobbys son:</h2>
+            <ul>
+                <!-- TODO: 8. incluir la etiqueta para encapsular una imagen y su leyenda -->
+                <h3><li type="1">Tocar Guitarra</li></h3>
+                <!-- TODO: 9. incluir la etiqueta para la imagen de mi preferencia  -->
+                <!-- TODO: 10. incluir la etiqueta para la descripción de la imagen y dentro de esta incluir la etiqueta para mostrar un link, incluir los atributos para la url de la pagina, y el texto descriptivo de la imagen	-->
+                <img src="https://i.pinimg.com/564x/bd/16/af/bd16affb3f19a3d759ce882a3c85f08f.jpg" alt="Error :/">
+                <!-- TODO: 11. incluir la etiqueta para un titulo (h3) , que tenga de texto , Lista de deportes o videojuegos favoritos -->
+                <!-- TODO: 12. incluir la etiqueta  para mostrar listas desordenadas -->
+                <!-- TODO: 13. incluir la etiquetas para  mostrar  3 elementos -->
+                <h3><li type="1">Escuchar Música</li></h3>
+                <img src="https://blog.uptodown.com/wp-content/uploads/Bluetooth-spotify-featured.jpg.webp" alt="Error :/">
+                <h3><li type="1">Juegos en Linea</li></h3>
+                <img src="https://lamenteesmaravillosa.com/wp-content/uploads/2020/03/chico-jugando-videojuegos.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe" alt="Error :/">
+            </ul>
+        </section >
+        <!-- TODO: 14. incluir la etiqueta para mostrar otra seccion -->
+        <section>
+            <!-- TODO: 15. incluir la etiqueta para mostrar para mostrar un titulo(h2) , que contenga el texto Contactarme-->
+            <h2>Contactamé</h2>
+            <!-- TODO: 16. incluir la etiqueta para  mostrar un formulario con si atributo action -->
+            <!-- TODO: 17. incluir la etiqueta para mostrar una seccion  que tenga inputs relacionados-->
+            <form action="enviardatos" method="post">
+                <!-- TODO: 18. incluir la etiquetan para mostrar para mostrar la legenda del campo del input, que contenga el texto Info de contacto -->           
+                <!-- TODO: 19. incluir la etiqueta para mostrar un label con el texto nombres-->
+                <!-- TODO: 19.  dentro de la anterior etiqueta , incluir la etiqueta para mostrar un input, con un id nombres, de tipo texto y de nombre nombres-apellidos y que tenga un valor de nombres-->
+                <!-- TODO: 20. incluir la etiqueta para mostrar un label con el texto nombres-->
+                <!-- TODO: 21.  dentro de la anterior etiqueta , incluir la etiqueta para mostrar un input-->
+                <!-- TODO: 22. incluir la etiqueta para mostrar un boton de tipo submit y con el texto Submit -->
+                <label for="nombres">Nombres:</label>                    
+                    <input type="text" id="nombres" name="nombres-apellidos"><br>    
+                <label for="apellidos">Apellidos:</label>                    
+                    <input type="text" id="apellidos" name="nombres-apellidos"><br>                
+                <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo"><br>                              
+            </form>
+        </section>
+        <!-- TODO: 23. incluir la etiqueta para mostrar otra seccion -->
+        <section>
+            <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" placeholder="Ingresa un Comentario :)"></textarea><br>                       
+                    <input type="submit" value="Submit">
+            <!-- TODO: 24. incluir la etiqueta para mostrar un label para comentarios , con el texto comentarios-->	
+            <!-- TODO: 25. incluir la etiqueta para mostrar un textarea , con id comentarios, nombre, comentarios, filas y columnas en cant 4 , y de texto inicial , comentario generico -->
+        </section>
+    </main>
+    <!-- TODO: 26. incluir la etiqueta para mostrar un footer -->
+    <footer>
+        <!-- TODO: 27. incluir la etiqueta para mostrar un texto , que contemga  No Copyright - -->
+        <!-- TODO: 28. dentro de la anterior etiqueta, incluir la etiqueta para mostrar un hipervinculo , que rediriga a la web de codigo  y que contenga un texto que diga Codigo-->
+        <h3>No Copyright 2023</h3>
+        <a href="https://codigo.edu.pe">Codigo</a>
+    </footer>
+</body>
+</html>
